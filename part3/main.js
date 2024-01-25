@@ -84,7 +84,7 @@ function initGame(websocket) {
 
 function getWebSocketServer() {
     if (window.location.host === "mortimerliu.github.io") {
-        return "wss://connect4-websocket.herokuapp.com/";
+        return "wss://connect4-websocket-85e6209eab4e.herokuapp.com/";
     } else if (window.location.host === "localhost:8000") {
         return "ws://localhost:8001/";
     } else {
